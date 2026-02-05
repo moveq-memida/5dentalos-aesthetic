@@ -251,6 +251,36 @@
       margin-block-end: clamp(2rem, 1.5rem + 2vw, 4rem);
     }
 
+    /* ===== Beige Section ===== */
+    .section--beige {
+      background-color: var(--color-surface);
+      padding-block: clamp(4rem, 3rem + 4vw, 6.5rem);
+      padding-inline: clamp(1rem, 0.5rem + 2vw, 2rem);
+      margin-inline: calc(-1 * clamp(1rem, 0.5rem + 2vw, 2rem));
+    }
+
+    .section--beige .under-btn {
+      background-color: #ffffff;
+    }
+
+    /* ===== Menu Item (compact h4 + text + button) ===== */
+    .menu-item {
+      margin-block-end: clamp(1.5rem, 1rem + 1.5vw, 2rem);
+    }
+
+    .menu-item .sub-heading {
+      margin-block-start: 0;
+      margin-block-end: clamp(0.75rem, 0.5rem + 0.5vw, 1rem);
+    }
+
+    .menu-item .text-block {
+      margin-block-end: clamp(0.75rem, 0.5rem + 0.5vw, 1rem);
+    }
+
+    .menu-item .under-btn {
+      margin-block-end: 0;
+    }
+
     /* ===== Responsive ===== */
     @media (max-width: 768px) {
       .btn-group {
@@ -427,6 +457,113 @@
       <div class="text-block">
         <p>主に前歯の虫歯治療や形態改善の症例に対して行います。 <span class="marker">コンポジットレジン</span>（歯科治療用プラスチック）を口腔内で直接接着充填することで歯の形態や機能を回復する方法です。</p>
         <p>古いプラスチックなどによる前歯の黄ばみ茶色みの改善では、<span class="marker">ホワイトニングと組み合わせて</span>行うことで審美的にもキレイにできます。</p>
+      </div>
+    </section>
+
+    <!-- ===== Section 3: その他の診療メニュー ===== -->
+    <section class="section section--beige">
+      <div class="container">
+        <h2 class="page-title">その他の診療メニュー</h2>
+
+        <!-- h3: 痛み等の治療・予防歯科 -->
+        <h3 class="section-heading">痛み等の治療・予防歯科</h3>
+
+        <div class="menu-item">
+          <h4 class="sub-heading">虫歯治療</h4>
+          <div class="text-block">
+            <p>むし歯治療と言っても、初期のむし歯、重度のむし歯では治療法は異なります。</p>
+          </div>
+          <a href="#" class="under-btn">虫歯治療の詳細へ</a>
+        </div>
+
+        <div class="menu-item">
+          <h4 class="sub-heading">歯周病治療</h4>
+          <div class="text-block">
+            <p>歯石の除去からバクテリアセラピーまで、さまざまなニーズにお応えいたします。</p>
+          </div>
+          <a href="#" class="under-btn">歯周病治療の詳細へ</a>
+        </div>
+
+        <div class="menu-item">
+          <h4 class="sub-heading">予防歯科/クリーニング</h4>
+          <div class="text-block">
+            <p>きれで清潔・当院のクリーニングシステムをぜひ体感ください。</p>
+          </div>
+          <a href="#" class="under-btn">予防歯科/クリーニングの詳細へ</a>
+        </div>
+
+        <div class="menu-item">
+          <h4 class="sub-heading">嚙み合わせ・顎関節症</h4>
+          <div class="text-block">
+            <p>相貌の歪みや痛みなどを引き起こす嚙み合わせのずれ・顎関節症も、保存的・可逆的治療を中心に対応します。</p>
+          </div>
+          <a href="#" class="under-btn">嚙み合わせ・顎関節症の詳細へ</a>
+        </div>
+
+        <div class="menu-item">
+          <h4 class="sub-heading">緊急治療・主訴治療</h4>
+          <div class="text-block">
+            <p>相貌の歪みや痛みなどを引き起こす嚙み合わせのずれ・顎関節症も、保存的・可逆的治療を中心に対応します。</p>
+          </div>
+          <a href="#" class="under-btn">緊急治療・主訴治療の詳細へ</a>
+        </div>
+
+        <!-- h3: 欠損部の補綴治療 -->
+        <h3 class="section-heading">欠損部の補綴治療</h3>
+
+        <div class="menu-item">
+          <h4 class="sub-heading">インプラント</h4>
+          <div class="text-block">
+            <p>近年、インプラントの需要はより高まってきています。ブリッジや入れ歯の治療よりもインプラント治療を希望なさる患者様は多くなっています。</p>
+            <p>インプラントのメリットは強度や機能性でありますが、高いレベルで考えると<span class="marker">審美的には難しい問題</span>もあります。当院のシステムでは、従来よりも<span class="marker">より審美的に行うことができる様</span>になってきます。</p>
+          </div>
+          <a href="#" class="under-btn">インプラントの詳細へ</a>
+        </div>
+
+        <div class="menu-item">
+          <h4 class="sub-heading">入れ歯/ブリッジ</h4>
+          <div class="text-block">
+            <p>歯科材料も日々進化しています。機能だけでなく、審美的に、快適に、清潔に。</p>
+          </div>
+          <a href="#" class="under-btn">入れ歯/ブリッジの詳細へ</a>
+        </div>
+
+        <!-- h3: 美容診療 -->
+        <h3 class="section-heading">美容診療</h3>
+
+        <!-- リップアートメイク@DENTAL -->
+        <h4 class="sub-heading">リップアートメイク@DENTAL</h4>
+        <div class="two-col">
+          <div class="two-col__image">
+            <img src="images/treatment-lam.png" alt="リップアートメイク@DENTAL" width="500" height="333">
+          </div>
+          <div class="two-col__text text-block">
+            <p>リップアートメイク@DENTALとは、唇の表皮深層に色素を注入し、唇の発色や形を改善する施術です。</p>
+            <p>従来のアートメイク施術が表面麻酔による施術になるのに対し、リップアートメイク@DENTALは<span class="marker">有資格者(臨床歯科口唇技術資格者)による注射麻酔→施術</span>となるため、痛みを限りなく0に近づけて施術することが可能となります。</p>
+            <p>従来であればかなりの痛みと3時間ほどの施術時間に耐える必要がありますが、リップアートメイク@DENTALであれば<span class="marker">痛みほぼ0、1.5時間ほどの施術時間</span>となります。</p>
+            <p>また歯科麻酔のおかげで唇表皮深部に色素が入るため、<span class="marker">発色や色の持続期間も良く</span>、グラデーションリップ(韓国リップ)などの難しい施術も<span class="marker">無痛で施術可能</span>です。</p>
+          </div>
+        </div>
+        <div class="btn-group">
+          <a href="#" class="under-btn">リップアートメイク@DENTALの詳細へ</a>
+        </div>
+
+        <!-- ローマピンク（Roma Pink） -->
+        <h4 class="sub-heading">ローマピンク（Roma Pink）</h4>
+        <div class="two-col">
+          <div class="two-col__image">
+            <img src="images/treatment-roma-pink.png" alt="ローマピンク（Roma Pink）" width="500" height="333">
+          </div>
+          <div class="two-col__text text-block">
+            <p><span class="marker">唇のメラニンにアプローチ</span>し、肌本来のナチュラルピンクを引き出すことを目的としたトーンケア施術です。</p>
+            <p>従来の色素注入系の施術とは異なり、ローマピンクは<span class="marker">針・麻酔を使用しない</span>ため、施術時の痛みが非常に少なく、負担を抑えながらケアを行うことが可能となります。</p>
+            <p>一般的な唇のトーン改善施術では、痛みや長時間の施術に耐える必要がある場合もありますが、ローマピンクは<span class="marker">痛みがほぼなく、ダウンタイムも短い</span>ため、日常生活に支障が出にくい点が特徴です。また、<span class="marker">植物由来の美容成分と特殊ライト</span>を用いてアプローチすることで、1度の施術でも長期間持続しやすく、自然な血色感を求める方に適した施術となっています。</p>
+          </div>
+        </div>
+        <div class="btn-group">
+          <a href="#" class="under-btn">ローマピンク（Roma Pink）の詳細へ</a>
+        </div>
+
       </div>
     </section>
 
