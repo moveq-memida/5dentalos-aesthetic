@@ -255,8 +255,9 @@
     .section--beige {
       background-color: var(--color-surface);
       padding-block: clamp(4rem, 3rem + 4vw, 6.5rem);
-      padding-inline: clamp(1rem, 0.5rem + 2vw, 2rem);
-      margin-inline: calc(-1 * clamp(1rem, 0.5rem + 2vw, 2rem));
+      /* Break out of container to full viewport width */
+      margin-inline: calc(-50vw + 50%);
+      padding-inline: calc(50vw - 50%);
     }
 
     .section--beige .under-btn {
@@ -462,7 +463,6 @@
 
     <!-- ===== Section 3: その他の診療メニュー ===== -->
     <section class="section section--beige">
-      <div class="container">
         <h2 class="page-title">その他の診療メニュー</h2>
 
         <!-- h3: 痛み等の治療・予防歯科 -->
@@ -564,7 +564,6 @@
           <a href="#" class="under-btn">ローマピンク（Roma Pink）の詳細へ</a>
         </div>
 
-      </div>
     </section>
 
   </main>
